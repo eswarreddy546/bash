@@ -2,4 +2,4 @@
 
 echo : " Please enter you name "
 read name
-echo : " $name "
+echo : fine, "$name" 
