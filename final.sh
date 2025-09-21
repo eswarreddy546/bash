@@ -1,7 +1,10 @@
 #!/bin/bash
 
-echo all variables :  "$@"
-echo "all file name :" "$*"
+# shellcheck disable=SC2145
+echo "all variables : $@"
+echo "all file name :  $$ "
+echo all " $USER"
+
 
 #!/bin/bash
 
