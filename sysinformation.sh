@@ -24,3 +24,8 @@ echo "Private IP          : $PRIVATE_IP"
 echo "Public IP           : $PUBLIC_IP"
 
 ss -tuln
+
+#!/bin/bash
+
+echo "Fetching EC2 details..."
+echo " $(curl -s http://169.254.169.254/latest/meta-data)"
