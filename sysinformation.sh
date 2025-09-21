@@ -22,3 +22,5 @@ PUBLIC_IP=$(curl -s ifconfig.me)
 
 echo "Private IP          : $PRIVATE_IP"
 echo "Public IP           : $PUBLIC_IP"
+
+ss -tuln
